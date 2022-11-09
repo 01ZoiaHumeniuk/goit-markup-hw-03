@@ -144,7 +144,7 @@ padding-top: 32px;
 
 /*--header flex---*/
 .flex-list{
-  width: calc((100%-100px)/3);
+  width: calc((100% - 100px)/3);
 }
 .flex-second{
   margin-right: 93px;
@@ -154,7 +154,7 @@ padding-top: 32px;
   align-items: center;
 }
 .flex-first{
-width: calc((100%50px)/2);
+width: calc((100% - 50px)/2);
 }
 .list .flex-first:not(:last-child){
 margin-right: 50px;
@@ -212,7 +212,7 @@ padding:10px 32px ;
 
 .priority-flex{
   margin-right: 30px;
-  width: calc((100%-90px)/4);
+  width: calc((100% - 90px)/4);
 }
 .priority-flexnt:nth-child(4n){
   margin-right: 0;
@@ -253,7 +253,7 @@ padding:10px 32px ;
     padding-top: 0;
 }
 .link-list{
-  width: calc((100%-60px)/3);
+  width: calc((100% - 60px)/3);
 }
 .item{
 column-gap: 30px
@@ -281,17 +281,12 @@ column-gap: 30px
 }
 .theme-bloc{
   background-color: var(--main-color);
-  width: calc((100%-90px)/4);
+  width: calc((100% - 90px)/4);
 }
 .cgr-bloc{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-  /*  *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-}*/
 
 .no-gap{
   display: block;
@@ -363,6 +358,9 @@ margin-bottom: 56px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.list-projects{
+width: calc((100% - 60px)/3);
 }
 
 .background-projeckt{
